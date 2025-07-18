@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base:"/My_Navid",
   server: {
     host: '0.0.0.0', // Listen on all network interfaces
     port: 5173,      // Default Vite port (keep this or change as needed)
